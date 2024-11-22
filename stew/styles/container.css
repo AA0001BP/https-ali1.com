@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    width: 31rem;
+    height: 35rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3rem;
+    column-gap: 4px;
+}
+
+@media  {
+    .container {
+    }
+}
