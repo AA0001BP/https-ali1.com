@@ -43,6 +43,11 @@ footer {
     transform: translateX(-50%);
     border-radius: 15px;
 }
+@media (max-width: 542px) {
+    .footer {
+        top: 0rem;
+    }
+}
 
 nav {
     display: flex;
