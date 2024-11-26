@@ -28,6 +28,9 @@
         top: 2rem;
         column-gap: 4px;
     }
+    .footer {
+        top: 0rem;
+    }
     
 }
 @media (max-width: 347px) {
