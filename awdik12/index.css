@@ -87,7 +87,7 @@ iframe {
     position: absolute;
     margin-top: 410px;
     margin-right: 0px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bold;
     z-index: 5;
     transition: font-size 0.4s ease;
