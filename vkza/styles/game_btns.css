@@ -1,0 +1,214 @@
+
+.btns {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .btns {
+        width: 336px;
+    }
+}
+
+.silver {
+    position: relative;
+    cursor: pointer;
+    padding: 0px;
+    border: none;
+    background: rgb(78, 60, 34);
+    transition: background 0.3s;
+}
+
+.silver:hover {
+    background: rgb(91, 67, 32);
+}
+
+.silver .text2 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    color: rgb(209, 176, 100);
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.silver .tails {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .silver .tails {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .silver .tails {
+        right: 4px;
+    }
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .silver {
+        box-shadow: rgba(192, 140, 68, 0.7) 0px 2px 0px 0px;
+        width: 164px;
+        height: 42px;
+    }
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .silver {
+        border-radius: 6px 32px 32px 6px;
+    }
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .silver .text2 {
+        margin: 0px 44px 0px 10px;
+    }
+}
+
+.text2 h3 {
+    position: relative;
+    margin: 0px;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+.text2 p {
+    margin: 0px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .text2 h3 {
+        top: 0px;
+        font-size: 14px;
+    }
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .text2 p {
+        font-size: 10px;
+        opacity: 1;
+    }
+}
+
+.gold {
+    position: relative;
+    cursor: pointer;
+    padding: 0px;
+    border: none;
+    background: rgb(78, 60, 34);
+    transition: background 0.3s;
+}
+
+.gold:hover {
+    background: rgb(91, 67, 32);
+}
+
+.gold .text {
+    position: relative;
+    z-index: 1;
+    display: flex
+;
+    flex-direction: column;
+    color: rgb(209, 176, 100);
+    font-size: 32px;
+    font-weight: 900;
+}
+
+
+@media (max-aspect-ratio: 100 / 100) {
+    .gold {
+        box-shadow: rgba(192, 140, 68, 0.7) 0px 2px 0px 0px;
+        width: 164px;
+        height: 42px;
+    }
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .gold {
+        border-radius: 32px 6px 6px 32px;
+    }
+}
+
+.gold .heads {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+
+
+.gold h3 {
+    position: relative;
+    margin: 0px;
+    transition: 0.2s;
+    text-transform: uppercase;
+}
+
+.gold p {
+    margin: 0px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .gold p {
+        font-size: 10px;
+        opacity: 1;
+    }
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .gold h3 {
+        top: 0px;
+        font-size: 14px;
+    }
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .gold .heads {
+        width: 42px;
+        height: 42px;
+    }
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .gold .heads {
+        left: 4px;
+    }
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .gold .text {
+        margin: 0px 10px 0px 44px;
+    }
+}
+
+@media (min-aspect-ratio: 100 / 100) {
+    .silver {
+        border-radius: 16px 85px 85px 16px;
+    }
+}
+
+@media (min-aspect-ratio: 100 / 100) {
+    .silver .tails {
+        width: 72px;
+        height: 72px;
+        top: 50%;
+    }
+}
+
+.red {
+    box-shadow:rgb(0, 219, 11) 4px 4px 2px 2px;
+}

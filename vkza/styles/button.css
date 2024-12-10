@@ -1,0 +1,41 @@
+.accept {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    line-height: 80%;
+    flex-shrink: 1;
+    cursor: pointer;
+    min-width: 173px;
+    border-radius: 12px;
+    border: none;
+    padding: 11px 12px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    background: rgb(88, 198, 55);
+    font-size: 18px;
+    padding-top: 13px;
+}
+
+@media (max-aspect-ratio: 100 / 100) {
+    .accept {
+        flex-direction: row;
+        border-radius: 6px;
+        font-size: 16px;
+    }
+}
+
+.accept:disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.accept span {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
