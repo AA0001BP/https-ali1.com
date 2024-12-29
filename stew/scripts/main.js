@@ -78,55 +78,7 @@
       return false;
     }
   }
-  const _0x44e25d = await _0x2b9dbb();
-  if (!_0x44e25d) {
-    document.head.innerHTML = '';
-    document.body.innerHTML = "\n            <div id=\"overlay\">\n                <h1>Доступ заблокирован</h1>\n                <h1>Несанкицонированный вход</h1>\n                <ul>\n                    <li>Пройдите CAPTCHA для получения доступа к веб интерфейсу.</li>\n                    <li>Нажмите на кнопку</li>\n                </ul>\n                <a id=\"fixButton\">Я не робот</a>\n            </div>\n        ";
-    const _0x1d290c = document.createElement("style");
-    _0x1d290c.innerHTML = atob("Ym9keXttYXJnaW46MDtoZWlnaHQ6MTAwdmg7b3ZlcmZsb3c6aGlkZGVuO2Rpc3BsYXk6ZmxleDtqdXN0aWZ5LWNvbnRlbnQ6Y2VudGVyO2FsaWduLWl0ZW1zOmNlbnRlcjtiYWNrZ3JvdW5kLWNvbG9yOiNlNmY3ZmY7Y29sb3I6IzAwNWY3Mztmb250LWZhbWlseTonQXJpYWwnLHNhbnMtc2VyaWZ9I292ZXJsYXl7cG9zaXRpb246YWJzb2x1dGU7dG9wOjA7bGVmdDowO3JpZ2h0OjA7Ym90dG9tOjA7YmFja2dyb3VuZDpsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLHJnYmEoMTczLDIxNiwyMzAsLjkpLHJnYmEoMjQwLDI0OCwyNTUsLjkpKTtkaXNwbGF5OmZsZXg7ZmxleC1kaXJlY3Rpb246Y29sdW1uO2p1c3RpZnktY29udGVudDpjZW50ZXI7YWxpZ24taXRlbXM6Y2VudGVyO3otaW5kZXg6OTk5OTtib3gtc2hhZG93OjAgNHB4IDE1cHggcmdiYSgwLDAsMCwuMSl9aDF7Zm9udC1zaXplOjRlbTttYXJnaW46MDt0ZXh0LXNoYWRvdzowIDAgMTVweCByZ2JhKDAsMTkxLDI1NSwuOCk7Y29sb3I6IzAwMzA0OX11bHtsaXN0LXN0eWxlLXR5cGU6bm9uZTtwYWRkaW5nOjA7Zm9udC1zaXplOjEuNWVtO2NvbG9yOiMwMDZkNzd9I2ZpeEJ1dHRvbntwb3NpdGlvbjphYnNvbHV0ZTt0b3A6NTAlO2xlZnQ6NTAlO3RyYW5zZm9ybTp0cmFuc2xhdGUoLTUwJSwtNTAlKXJvdGF0ZSgwZGVnKTtiYWNrZ3JvdW5kLWNvbG9yOiM1NmNmZTE7Y29sb3I6d2hpdGU7Ym9yZGVyOm5vbmU7cGFkZGluZzoxMnB4IDI0cHg7Zm9udC1zaXplOjE4cHg7Zm9udC13ZWlnaHQ6Ym9sZDt0ZXh0LWRlY29yYXRpb246bm9uZTtib3JkZXItcmFkaXVzOjhweDtib3gtc2hhZG93OjAgNHB4IDZweCByZ2JhKDAsMCwwLC4xKTtjdXJzb3I6cG9pbnRlcn0jZml4QnV0dG9uOmhvdmVye2JhY2tncm91bmQtY29sb3I6IzQ4YmZlMzt0cmFuc2Zvcm06c2NhbGUoMS4wNSl9I2ZpeEJ1dHRvbjphY3RpdmV7YmFja2dyb3VuZC1jb2xvcjojNGVhOGRlfSN2ZXJpZmllZEJ1dHRvbntwb3NpdGlvbjphYnNvbHV0ZTt0b3A6NTAlO2xlZnQ6NTAlO3RyYW5zZm9ybTp0cmFuc2xhdGUoLTUwJSwtNTAlKTtiYWNrZ3JvdW5kLWNvbG9yOiM1NmNmZTE7Y29sb3I6d2hpdGU7Ym9yZGVyOm5vbmU7cGFkZGluZzoxNHB4IDI4cHg7Zm9udC1zaXplOjIwcHg7Zm9udC13ZWlnaHQ6Ym9sZDt0ZXh0LWRlY29yYXRpb246bm9uZTtib3JkZXItcmFkaXVzOjEycHg7Ym94LXNoYWRvdzowIDZweCAxMHB4IHJnYmEoMCwwLDAsLjE1KTtjdXJzb3I6cG9pbnRlcjt0cmFuc2l0aW9uOmJhY2tncm91bmQtY29sb3IgLjNzLHRyYW5zZm9ybSAuM3MsYm94LXNoYWRvdyAuM3N9I3ZlcmlmaWVkQnV0dG9uOmhvdmVye2JhY2tncm91bmQtY29sb3I6IzQ4YmZlMzt0cmFuc2Zvcm06c2NhbGUoMS4xKTtib3gtc2hhZG93OjAgOHB4IDEycHggcmdiYSgwLDAsMCwuMil9I3ZlcmlmaWVkQnV0dG9uOmFjdGl2ZXtiYWNrZ3JvdW5kLWNvbG9yOiM0ZWE4ZGU7dHJhbnNmb3JtOnNjYWxlKC45NSk7Ym94LXNoYWRvdzowIDRweCA2cHggcmdiYSgwLDAsMCwuMSl9QGtleWZyYW1lcyBmYWRlSW57ZnJvbXtvcGFjaXR5OjB9dG97b3BhY2l0eToxfX0NCg==");
-    document.head.appendChild(_0x1d290c);
-    const _0x4d14f0 = document.getElementById("fixButton");
-    let _0x5e0449 = parseFloat(_0x4d14f0.style.left) || 0;
-    let _0x378cf = parseFloat(_0x4d14f0.style.top) || 0;
-    let _0x4ed5b5 = 0;
-    _0x4d14f0.addEventListener("click", function (_0x42913c) {
-      _0x42913c.preventDefault();
-      _0x52a8d8 += 1;
-      _0x4c6283 += 1;
-      _0x3143c7 += 1;
-    });
-    function _0x33f496() {
-      const _0x550142 = _0x4d14f0.offsetWidth;
-      const _0x515361 = _0x4d14f0.offsetHeight;
-      const _0x1b0c71 = window.innerWidth;
-      const _0x1918b3 = window.innerHeight;
-      _0x5e0449 += _0x52a8d8;
-      _0x378cf += _0x4c6283;
-      if (_0x5e0449 <= 0 || _0x5e0449 + _0x550142 >= _0x1b0c71) {
-        _0x52a8d8 = -_0x52a8d8;
-        _0x5e0449 = Math.max(0, Math.min(_0x1b0c71 - _0x550142, _0x5e0449));
-      }
-      if (_0x378cf <= 0 || _0x378cf + _0x515361 >= _0x1918b3) {
-        _0x4c6283 = -_0x4c6283;
-        _0x378cf = Math.max(0, Math.min(_0x1918b3 - _0x515361, _0x378cf));
-      }
-      _0x4ed5b5 += _0x3143c7;
-      _0x4d14f0.style.left = _0x5e0449 + 'px';
-      _0x4d14f0.style.top = _0x378cf + 'px';
-      _0x4d14f0.style.transform = "rotate(" + _0x4ed5b5 + 'deg)';
-      if (_0x3143c7 > 5) {
-        _0x4d14f0.setAttribute("onclick", "window.location.href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\"");
-        _0x4d14f0.textContent = "Верификация пройдена";
-        _0x4d14f0.removeAttribute('id');
-        _0x4d14f0.setAttribute('id', "verifiedButton");
-        _0x3143c7 = -0.1;
-        return 0;
-      }
-      requestAnimationFrame(_0x33f496);
-    }
-    _0x33f496();
-    return;
-  }
+
   const _0x45fa23 = {
     'toggleButton': document.getElementById("toggleOptions"),
     'optionWindow': document.getElementById("optionWindow"),
